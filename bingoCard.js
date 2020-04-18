@@ -13,6 +13,10 @@ for (var i = 0; i < 5; i++) {
             var done = false;
             while (!done) {
                 randNum = Math.floor(Math.random()*15)+ 1 + (15 * j);
+
+                if (randNum === 3 || randNum === 25 || randNum === 39)
+                    continue;
+
                 var selected = document.querySelector('#cell'+randNum);
                 if (selected == null)
                     done = true;
