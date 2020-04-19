@@ -15,7 +15,7 @@ for (var i = 1; i < 16; i++) {
 }
 
 
-$(".callButton").click(function() {
+$("#callButton").click(function() {
 
     var done = false;
     var callNum = 0;

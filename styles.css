@@ -5,7 +5,7 @@
 }
 
 
-#callButton {
+.bingoButton {
   display: inline-block;
   font-family: 'Lobster', cursive;
   font-size: 2rem;

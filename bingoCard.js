@@ -44,6 +44,18 @@ $(".bingoCell").click(function() {
         this.style.backgroundColor = "grey";
     }
 });
+
+
+$("#resetButton").click(function() {
+    var allCells = document.querySelectorAll(".bingoCell");
+    allCells.forEach((item) => {
+        item.style.textDecoration = "";
+        item.style.backgroundColor = "white";
+    })
+});
+  
+
+
   
 
 
