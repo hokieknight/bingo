@@ -1,4 +1,5 @@
-.container {
+
+.bingoContainer {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -12,6 +13,16 @@
   border: 5px solid black;
   border-radius: 10%;
   background-color: #FEF2BF;
+}
+
+.bingoHeader {
+  margin: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  background-color:red;
+  color: white;
+  width: 20% ;
 }
 
 #callValue {
@@ -44,12 +55,12 @@ a {
 
 
 table {
+  margin: 50px;
   table-layout: fixed;
   margin-left: auto; 
   margin-right: auto;
   width: 80%;
   text-align: center;
-  
 }
 
 th {
@@ -74,7 +85,7 @@ td {
 p {
   font-size: 2rem;
   color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
