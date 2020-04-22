@@ -37,8 +37,9 @@ function addCard(cardNum) {
                 while (!done) {
                     randNum = Math.floor(Math.random()*15)+ 1 + (15 * j);
 
-                    if (randNum === 3 || randNum === 25 || randNum === 39)
-                        continue;
+                    // missing bingo #'s
+                    //if (randNum === 3 || randNum === 25 || randNum === 39)
+                    //    continue;
 
                     var selected = document.querySelector('#card' + cardNum + 'cell' + randNum);
                     if (selected == null)
